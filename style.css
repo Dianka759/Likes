@@ -1,0 +1,124 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* NAVIGATION */
+.nav-container {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    min-height: 60px;
+    padding: 0px 20px;
+}
+
+.nav {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title, .feed-title {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+
+/* News feed top bar */
+.feed-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.feed {
+    align-items: center;
+}
+
+
+/* Containers and main content Boxes */
+.pageContainer {
+    width: 725px;
+    margin: 0 auto;
+}
+
+.layout {
+    margin-top: 20px;
+    gap: 30px;    
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex1 p {
+    margin-bottom: 20px;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.container {
+    color: crimson;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 25px;
+    padding: 25px;
+    min-height: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.box {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment {
+    text-align: start;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Buttons */
+.btn2 {
+    background-color: rgb(6, 78, 172);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 90px;
+    border: 2px solid rgb(170, 0, 0);
+    box-shadow: 2px 4px 5px rgb(151, 0, 0);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(138, 4, 4);
+}
+
+
+/* link text  */
+.link {
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* prfile img */
+img {
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}

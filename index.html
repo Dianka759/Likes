@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="pageContainer">
+        <!-- NAVIGATION BAR -->
+        <div class="nav-container">
+            <div class="nav">
+                <h1 class="nav-title">Network</h1>
+            </div>
+        </div>
+        <div class="feed-container">
+            <div class="feed">
+                <h1 class="feed-title">Your Feed</h1>
+            </div>
+        </div>
+        <div class="layout">
+
+            <!-- left profile box -->
+            <div class="leftbox">
+                <div class="flex1">
+                    <div class="container">
+                        <div class="box">
+                            <div>
+                                <img src="lumine.png" alt="Profile Picture">
+                                <p><span class="link">Change avatar </span></p>
+                                <h1> Diana K</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right boxes -->
+            <div class="rightbox">
+                <div class="flex2">
+                    <div class="container">
+                        <div class="box">
+                            <h1>Andrew C</h1>
+                            <div class="likes">
+                                <h4 id="count"> 100 like</h4>
+                                <button onclick="like()" class="btn2">
+                                    Like</button>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <p>Everybody should totally watch <span class="link">Squid Game</span> it was <span
+                                    style="font-style: italic;">a m a z i n g.</span>
+                                    🔺🔴🟥 🐙🔪🚨🥀🧫👺 🔺🔴🟥 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box">
+                        <h1>Sam F</h1>
+                        <div class="likes">
+                            <h4 id="count2"> 99 likes</h4>
+                            <button onclick="like2()" class="btn2">
+                                Like</button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>Do<span style="font-style: italic;"> NOT</span>, and I repeat, do <span
+                                style="font-style: italic;">NOT</span> watch <span class="link">Squid Game</span> 👧🏻💥🔪🚨.
+                            I'm scarred for life. Thanks Diana. 😒</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box">
+                        <h1>Marta K</h1>
+                        <div class="likes">
+                            <h4 id="count3"> 101 likes</h4>
+                            <button onclick="like3()" class="btn2">
+                                Like</button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p> What is this <span class="link"> Squid Game </span> everybody is talking about. Do they play
+                            with squids or something? 🦑🎮🤷 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
